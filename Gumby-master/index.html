@@ -99,7 +99,7 @@
 	else if (window.attachEvent)
 	window.attachEvent("onload", downloadJSAtOnload);
 	else window.onload = downloadJSAtOnload;
-	</script> -->
+	</script>
 
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
@@ -120,11 +120,11 @@
 	<![endif]-->
 
 
-    <div class="navbar" id="nav1">
+    <div class="navbar fixed" id="nav1">
         <div class="row">
-            <a class="toggle" gumby-trigger="#nav1 > ul" href="#"><i class="icon-menu"></i></a>
+            <a class="toggle" gumby-trigger="#nav1 > .row> ul" href="#"><i class="icon-menu"></i></a>
             <h1>Life in SoftUni</h1>
-            <ul class="eight columns">
+            <ul class="twelve columns">
                 <li><a href="#">Logo</a></li>
                 <li><a href="#">Deja Vu</a></li>
                 <li><a href="#">Prediction</a></li>
