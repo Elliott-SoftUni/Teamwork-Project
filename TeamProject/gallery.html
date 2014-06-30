@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archive</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div id="reactions"></div>
+<script id="images-template" type='text/x-handlebars-template'>
+    {{#reactions}}
+    <div class="box">
+        <div class="inner">
+            <p><h3>{{title}}</h3></p>
+            <p><img alt="{{title}}" src="{{image}}" ></p>
+        </div>
+    </div>
+    {{/reactions}}
+</script>
+<script src="scripts/handlebars.js"></script>
+<script src="scripts/images.js"></script>
+</body>
+</html>
