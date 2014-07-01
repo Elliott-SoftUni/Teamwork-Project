@@ -4,8 +4,17 @@ img {
 }
 
 .header {
-    color: #ffffff;
-    font-size: 25px;
+    color: #1c85cc;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+#navigation {
+    display: inline-block;
 }
 
 .headers{
