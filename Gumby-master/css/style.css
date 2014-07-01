@@ -3,6 +3,11 @@ img {
     margin: 10px;
 }
 
+.header {
+    color: #ffffff;
+    font-size: 25px;
+}
+
 .headers{
     font-size: 35px;
     font-style: italic;
