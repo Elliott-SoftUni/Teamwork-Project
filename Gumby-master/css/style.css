@@ -1,4 +1,34 @@
-/*
-We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
-However, this blank file is available if you prefer
-*/
+img {
+    width: 60%;
+    margin: 10px;
+}
+
+.headers{
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+}
+
+.imagesArea {
+    padding-top: 70px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active {
+    text-decoration: underline;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+.pageNums {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-style: italic;
+}
