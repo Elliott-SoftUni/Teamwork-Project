@@ -4,18 +4,25 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 #wrapper{
     background-color: rgba(0, 0, 0, 0.8);
-    width: 80%;
+    width: 70%;
+    min-width: 339px;
+    height: auto;
     margin: 0 auto;
 }
 p{
     width: 100%;
+    align-content: center;
 }
-img {
+p>img {
     margin: 0;
     padding: 0;
-    width: 50%;
+    max-width: 80%;
+    min-width: 250px;
+    padding-bottom: 20px;
+    paddint-right: 5px;
 }
 
 .header {
@@ -78,7 +85,7 @@ nav ul li a:visited{
 }
 
 .greeting {
-    display: block;
+    display: inline-block;
     width: 96%;
     padding-top: 120px;
     margin-left: 20px;
@@ -93,5 +100,12 @@ nav ul li a:visited{
 .text {
     color: #1c85cc;
     font-size: 25px;
-    font-style: italic;
+    font-style: normal;
+    font-family: "Neutraface", "entypo", "times new roman", "serif";
+}
+
+.inner{
+    position: relative;
+    display: block;
+    height: 100%;
 }
