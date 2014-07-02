@@ -10,14 +10,13 @@ p img {
     font-weight: bold;
     display: inline-block;
     vertical-align: top;
-    margin-top: 6px;
 }
 
 #navigation {
     display: inline-block;
 }
 
-.headers{
+.gifText {
     font-size: 35px;
     font-style: italic;
     font-family: "Times New Roman", serif;
