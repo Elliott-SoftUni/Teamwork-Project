@@ -5,14 +5,17 @@ body{
     background-attachment: fixed;
 }
 #wrapper{
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 70%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
     margin: 0 auto;
 }
-
-p img {
+p{
     width: 100%;
-    margin: 10px;
+}
+img {
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
 }
 
 .header {
@@ -26,6 +29,7 @@ p img {
 
 #navigation {
     display: inline-block;
+    color: darkseagreen;
 }
 
 .gifText {
@@ -38,7 +42,7 @@ p img {
 .imagesArea {
     padding-top: 70px;
     text-align: center;
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,12 +60,21 @@ p img {
 nav ul li {
     display: inline-block;
     margin: 10px;
-    font-style: italic;
+    font-style: normal;
+}
+nav ul li a{
+    color: lightblue;
+}
+nav ul li a:visited{
+    color: darkslategray;
 }
 
 .validators {
-    float: right;
-    margin: 20px;
+    position: relative;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .greeting {
