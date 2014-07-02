@@ -1,11 +1,13 @@
 body{
-    width: 900px;
+    width: 100%;
     background-image: url('../img/jungle.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 #wrapper{
     background-color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    margin: 0 auto;
 }
 
 p img {
