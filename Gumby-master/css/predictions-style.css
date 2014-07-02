@@ -1,0 +1,70 @@
+/** Predictions page **/
+
+html{
+    background-color: black;
+}
+body{
+    width: 100%;
+    background-image: url('../img/night.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#wrapper{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+/**Navigation start**/
+.header {
+    color: #1c85cc;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#navigation {
+    display: inline-block;
+    color: darkseagreen;
+}
+/**Navigation end**/
+
+.validators {
+    position: relative;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.inner{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 80%;
+}
+
+#shaman{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px;
+}
+.inner figure{
+    display: inline-block;
+}
+#prediction{
+    color: lightsteelblue;
+    position: relative;
+    max-width: 500px;
+    margin-top: 100px;
+    margin-left: 50%;
+    display: inline;
+    vertical-align: top;
+    overflow-wrap: normal;
+}
+

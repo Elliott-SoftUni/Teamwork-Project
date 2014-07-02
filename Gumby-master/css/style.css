@@ -1,0 +1,112 @@
+body{
+    width: 100%;
+    background-image: url('../img/jungle.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 70%;
+    min-width: 339px;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    width: 100%;
+    align-content: center;
+}
+p>img {
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    min-width: 250px;
+    padding-bottom: 20px;
+    paddint-right: 5px;
+}
+
+.header {
+    color: #1c85cc;
+    font-size: 1em;
+    color: #75A722;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#navigation {
+    display: inline-block;
+    color: darkseagreen;
+}
+
+.gifText {
+    color: white;
+    font-size: 1.5em;
+    font-style: normal;
+    font-family: "entypo","Times New Roman", serif;
+}
+
+.imagesArea {
+    padding-top: 70px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active {
+    text-decoration: underline;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+.pageNums {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-style: normal;
+}
+nav ul li a{
+    color: lightblue;
+}
+nav ul li a:visited{
+    color: darkslategray;
+}
+
+.validators {
+    position: relative;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.greeting {
+    display: inline-block;
+    width: 96%;
+    padding-top: 120px;
+    margin-left: 20px;
+}
+
+#greetingHeader {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text {
+    color: #75A722;
+    font-size: 25px;
+    font-style: normal;
+    font-family: "Neutraface", "entypo", "times new roman", "serif";
+}
+
+.inner{
+    position: relative;
+    display: block;
+    height: 100%;
+}

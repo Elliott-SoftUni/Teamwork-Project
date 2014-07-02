@@ -1,0 +1,12 @@
+Refactoring needed: 
+	- divide content images and web-site images in different folders
+	- include php for includes
+	- claymate?
+	
+Responsive problems:
+	- in tablet size - landscape mode the navigation brokes
+	- Images in Deja Vu page are not centred in smaller sizes
+	- Style the menu in mobile responsive - change the colors
+	
+	
+	
