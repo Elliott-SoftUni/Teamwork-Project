@@ -1,3 +1,13 @@
+body{
+    width: 900px;
+    background-image: url('../img/jungle.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#wrapper{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 p img {
     width: 100%;
     margin: 10px;
@@ -5,8 +15,8 @@ p img {
 
 .header {
     color: #1c85cc;
-    font-size: 27px;
-    font-style: italic;
+    font-size: 1em;
+    font-style: normal;
     font-weight: bold;
     display: inline-block;
     vertical-align: top;
@@ -17,9 +27,10 @@ p img {
 }
 
 .gifText {
-    font-size: 35px;
-    font-style: italic;
-    font-family: "Times New Roman", serif;
+    color: white;
+    font-size: 1.5em;
+    font-style: normal;
+    font-family: "entypo","Times New Roman", serif;
 }
 
 .imagesArea {
