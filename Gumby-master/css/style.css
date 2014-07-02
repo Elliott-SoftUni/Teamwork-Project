@@ -19,7 +19,7 @@ img {
 }
 
 .header {
-    color: #1c85cc;
+    color: #75A722;
     font-size: 1.4em;
     font-style: normal;
     font-weight: bold;
@@ -35,8 +35,8 @@ img {
 
 .gifText {
     color: white;
-    font-size: 1.5em;
-    font-style: normal;
+    font-size: 1.7em;
+    font-style: italic;
     font-family: "entypo","Times New Roman", serif;
 }
 
@@ -92,7 +92,7 @@ nav ul li a:visited{
 }
 
 .text {
-    color: #1c85cc;
+    color: #75A722;
     font-size: 25px;
     font-style: italic;
 }
