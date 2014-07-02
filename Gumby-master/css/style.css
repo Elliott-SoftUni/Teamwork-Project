@@ -28,6 +28,7 @@ p>img {
 .header {
     color: #1c85cc;
     font-size: 1em;
+    color: #75A722;
     font-style: normal;
     font-weight: bold;
     display: inline-block;
@@ -98,7 +99,7 @@ nav ul li a:visited{
 }
 
 .text {
-    color: #1c85cc;
+    color: #75A722;
     font-size: 25px;
     font-style: normal;
     font-family: "Neutraface", "entypo", "times new roman", "serif";
