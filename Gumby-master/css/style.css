@@ -71,14 +71,14 @@ nav ul li {
     margin-left: 20px;
 }
 
-.text {
-    color: #1c85cc;
-    font-size: 25px;
-    font-style: italic;
-}
-
 #greetingHeader {
     display: block;
     text-align: center;
     font-size: 30px;
+}
+
+.text {
+    color: #1c85cc;
+    font-size: 25px;
+    font-style: italic;
 }
