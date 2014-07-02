@@ -20,10 +20,11 @@ img {
 
 .header {
     color: #1c85cc;
-    font-size: 1em;
+    font-size: 1.4em;
     font-style: normal;
     font-weight: bold;
     display: inline-block;
+    margin-top: 0.3em;
     vertical-align: top;
 }
 
