@@ -1,0 +1,42 @@
+#wrapper{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 810px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+figure#shaman{
+    max-width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    min-width: 260px;
+    padding: 0;
+}
+
+.greeting {
+    display: inline-block;
+    width: 96%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#greetingHeader {
+    display: block;
+    color: #b8a7cc;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Neutraface", "entypo", "times new roman", "serif";
+}
+
+.welcomeBlock{
+    margin: 0 auto;
+    color: #b8a7cc;
+    font-size: 25px;
+    font-style: normal;
+    font-family: "Neutraface", "entypo", "times new roman", "serif";
+}
+
+footer{
+    padding-top: 20px;
+}

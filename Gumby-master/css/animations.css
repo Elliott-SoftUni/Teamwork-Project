@@ -15,14 +15,14 @@
 
 .init:hover {
     -webkit-animation-name: flow;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-timing-function: step-start;
 
     -moz-animation-name: flow;
-    -moz-animation-duration: 1s;
+    -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
+    -moz-animation-timing-function: step-start;
 
 }
 @-webkit-keyframes flow {
