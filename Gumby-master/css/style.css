@@ -6,8 +6,8 @@ body{
 }
 
 #wrapper{
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 70%;
+    background-color: rgba(0, 0, 0, 0.7 );
+    width: 65%;
     min-width: 339px;
     height: auto;
     margin: 0 auto;
@@ -21,8 +21,6 @@ p>img {
     padding: 0;
     max-width: 80%;
     min-width: 250px;
-    padding-bottom: 20px;
-    paddint-right: 5px;
 }
 
 .header {
@@ -88,7 +86,6 @@ nav ul li a:visited{
 .greeting {
     display: inline-block;
     width: 96%;
-    padding-top: 120px;
     margin-left: 20px;
 }
 
@@ -105,8 +102,9 @@ nav ul li a:visited{
     font-family: "Neutraface", "entypo", "times new roman", "serif";
 }
 
-.inner{
-    position: relative;
-    display: block;
-    height: 100%;
+#shaman{
+    max-width: 100%;
+    display: inline-block;
+    padding: 0 auto;
+    min-width: 300px;
 }

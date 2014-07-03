@@ -27,6 +27,8 @@
          However, there is a blank style.css in the css directory should you prefer -->
     <link rel="stylesheet" href="css/gumby.css">
     <link rel="stylesheet" href="css/predictions-style.css">
+    <link rel="stylesheet" href="css/animations.css"/>
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <script src="js/libs/modernizr-2.6.2.min.js"></script>
 </head>
@@ -102,14 +104,14 @@
             </ul>
         </div>
     </div>
-
     <div id="wrapper">
-
-        <div class="inner">
-            <div id="prediction"></div>
-            <figure><img id="shaman" src="img/nakov-shaman.png" alt="ShamaNakov" class="photo"/></figure>
+        <div id="textBox"><span id="prediction" class="animated fadeIn"></span></div>
+        <div id="catcher">
+            <div class="init"></div>
+            <div class="ff"></div>
+            <div class="sf"></div>
+            <div class="tf"></div>
         </div>
-
         <footer>
             <div class="validators">
                 <a href="http://validator.w3.org/" target="_blank">
