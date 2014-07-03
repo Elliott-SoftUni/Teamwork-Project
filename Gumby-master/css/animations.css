@@ -17,7 +17,33 @@
 .init:hover {
     -webkit-animation-name: flow;
 <<<<<<< HEAD
+<<<<<<< HEAD
     -webkit-animation-duration: 1s;
+=======
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: step-start;
+
+    -moz-animation-name: flow;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: step-start;
+
+}
+@-webkit-keyframes flow {
+    0%, 100% {-webkit-transform: rotate(0deg); background-image: url('../img/catcher/initial.png');}
+    50% {-webkit-transform: rotate(0deg); background-image: url('../img/catcher/hover.png');}
+}
+
+@-moz-keyframes flow {
+    0%, 100% {
+        -moz-transform: flow(0deg);
+    }
+    50% {
+        -moz-transform: flow(0deg);
+    }
+}
+>>>>>>> c6076ff0ffd1fd7acad16a791a4e33bd78a22a59
 =======
     background: url('../img/catcher/init.png') no-repeat 0 0 ;
     position: static;
