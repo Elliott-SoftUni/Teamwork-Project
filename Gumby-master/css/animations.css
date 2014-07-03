@@ -3,6 +3,7 @@
 }
 
 .init{
+<<<<<<< HEAD
     background: url('../img/catcher/initial.png') no-repeat 0 0 ;
     position: static;
     display: inline;
@@ -16,10 +17,121 @@
 .init:hover {
     -webkit-animation-name: flow;
     -webkit-animation-duration: 1s;
+=======
+    background: url('../img/catcher/init.png') no-repeat 0 0 ;
+    position: static;
+    display: inline;
+    padding: 150px;
+    margin-left: 300px;
+
+
+}
+.ff {
+    position: absolute;
+    width: 100%;
+    height: auto;
+
+    background-image: url(../img/catcher/firstFeather.png);
+    display: inline-block;
+}
+
+    .ff:hover {
+        -webkit-animation: wind-animation-1 3s;
+        animation: wind-animation-1 3s;
+    }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wind-animation-1 {
+
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+    }
+    100%{
+        -webkit-background-image: url(../img/catcher/firstFeatherOnHover.png);
+    }
+}
+
+/* Firefox */
+@keyframes wind-animation-1 {
+    from {
+    }
+
+    to {
+        transform: rotate(10deg);
+        background-image: url(../img/catcher/firstFeatherOnHover.png);
+    }
+}
+
+
+.ff {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 500px;
+    text-align: left;
+    text-indent: -9999px;
+    background: url('../img/catcher/firstFeatherOnHover.png') no-repeat 0 0;
+}
+
+    .ff:hover {
+
+        -webkit-transition: background 500ms ease-in 4s;
+        -moz-transition: background 500ms ease-in 4s;
+        -o-transition: background 500ms ease-in 4s;
+        transition: background 500ms ease-in 4s;
+
+
+        -webkit-transition-property: background;
+        -webkit-transition-duration: 300ms;
+        -webkit-transition-timing-function: ease-in;
+        -webkit-transition-delay: 100ms;
+
+        -moz-transition-property: background;
+        -moz-transition-duration: 300ms;
+        -moz-transition-timing-function: ease-in;
+        -moz-transition-delay: 100ms;
+
+        -o-transition-property: background;
+        -o-transition-duration: 300ms;
+        -o-transition-timing-function: ease-in;
+        -o-transition-delay: 100ms;
+
+        transition-property: background;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in;
+        transition-delay: 100ms;
+    }
+
+.sf{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 500px;
+    text-align: left;
+    text-indent: -9999px;
+    background: url('../img/catcher/secondFeather.png') no-repeat 0 0;
+
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 2s;
+
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 2s;
+}
+.sf:hover {
+    -webkit-animation-name: flow;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: backFlow;
+>>>>>>> 3243d07f3b5de16070ede11dcee663309e98629a
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 
     -moz-animation-name: flow;
+<<<<<<< HEAD
     -moz-animation-duration: 1s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
@@ -38,3 +150,28 @@
         -moz-transform: flow(0deg);
     }
 }
+=======
+    -moz-animation-duration: 3s;
+    -moz-animation-name: backFlow;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes flow {
+    from {-webkit-transform: rotate(0deg); background-image: url('../img/catcher/secondFeatherOnHover.png');}
+    to {-webkit-transform: rotate(-10deg); background-image: url('../img/catcher/secondFeather.png');}
+}
+@-webkit-keyframes backFlow {
+    from {-webkit-transform: rotate(0deg); background-image: url('../img/catcher/secondFeatherOnHover.png');}
+    to {-webkit-transform: rotate(10deg); background-image: url('../img/catcher/secondFeather.png');}
+}
+
+@-moz-keyframes flow {
+    from {
+        -moz-transform: flow(0deg);
+    }
+    to {
+        -moz-transform: flow(30deg);
+    }
+}
+
+>>>>>>> 3243d07f3b5de16070ede11dcee663309e98629a
