@@ -23,10 +23,9 @@ p>img {
     min-width: 250px;
 }
 
-.header {
-    color: #1c85cc;
+.logo {
+    color: #41ccb2;
     font-size: 1em;
-    color: #75A722;
     font-style: normal;
     font-weight: bold;
     display: inline-block;
