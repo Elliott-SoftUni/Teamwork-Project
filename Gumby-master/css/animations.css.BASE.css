@@ -1,0 +1,40 @@
+#catcher{
+    position: absolute;
+}
+
+.init{
+    background: url('../img/catcher/initial.png') no-repeat 0 0 ;
+    position: static;
+    display: inline;
+    padding-top: 160px;
+    padding-bottom: 400px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-left: 750px;
+}
+
+.init:hover {
+    -webkit-animation-name: flow;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: flow;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+}
+@-webkit-keyframes flow {
+    0%, 100% {-webkit-transform: rotate(0deg); background-image: url('../img/catcher/initial.png');}
+    50% {-webkit-transform: rotate(0deg); background-image: url('../img/catcher/hover.png');}
+}
+
+@-moz-keyframes flow {
+    0%, 100% {
+        -moz-transform: flow(0deg);
+    }
+    50% {
+        -moz-transform: flow(0deg);
+    }
+}

@@ -88,23 +88,3 @@ nav ul li a:visited{
     width: 96%;
     margin-left: 20px;
 }
-
-#greetingHeader {
-    display: block;
-    text-align: center;
-    font-size: 30px;
-}
-
-.text {
-    color: #75A722;
-    font-size: 25px;
-    font-style: normal;
-    font-family: "Neutraface", "entypo", "times new roman", "serif";
-}
-
-#shaman{
-    max-width: 100%;
-    display: inline-block;
-    padding: 0 auto;
-    min-width: 300px;
-}

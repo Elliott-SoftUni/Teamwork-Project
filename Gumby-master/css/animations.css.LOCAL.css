@@ -16,7 +16,6 @@
 
 .init:hover {
     -webkit-animation-name: flow;
-<<<<<<< HEAD
     -webkit-animation-duration: 1s;
 =======
     background: url('../img/catcher/init.png') no-repeat 0 0 ;
@@ -128,21 +127,14 @@
     -webkit-animation-duration: 3s;
     -webkit-animation-name: backFlow;
 >>>>>>> 3243d07f3b5de16070ede11dcee663309e98629a
-=======
-    -webkit-animation-duration: 2s;
->>>>>>> b3dc4aa43347e32244f9e499099f4f1774e19cc5
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: step-start;
+    -webkit-animation-timing-function: linear;
 
     -moz-animation-name: flow;
 <<<<<<< HEAD
-<<<<<<< HEAD
     -moz-animation-duration: 1s;
-=======
-    -moz-animation-duration: 2s;
->>>>>>> b3dc4aa43347e32244f9e499099f4f1774e19cc5
     -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: step-start;
+    -moz-animation-timing-function: linear;
 
 }
 @-webkit-keyframes flow {
